@@ -1,9 +1,9 @@
 cask "asyar" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.1.1-45"
-  sha256 arm:   "863e4f5e7ec9fbe2c28ce926c4376b8ac1cd81d8a432a943d6d5d1a6f49d4db4",
-         intel: "16694a2c3f565455d9e47407a5b0c4933a3c86fa094ebf0b6973b7e3f92fcd2a"
+  version "0.1.1-46"
+  sha256 arm:   "a1b151cf18ea1e8c6f6d7b3cfd0a24c194390fa965205c4cf48ec77c05716c6c",
+         intel: "59313f6fe14b9edb5a63793c207e47e3343dbb7980e8922bb2319a4f39908744"
 
   url "https://github.com/Xoshbin/asyar/releases/download/v#{version}/asyar_#{version}_#{arch}.dmg"
   name "Asyar"
